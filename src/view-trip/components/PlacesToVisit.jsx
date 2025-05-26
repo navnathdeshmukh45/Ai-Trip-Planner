@@ -12,11 +12,11 @@ function PlacesToVisit({ trip }) {
               {item.plan.map((place, placeIndex) => (
                 <div key={`place-${placeIndex}`} className="mb-4 p-4 border rounded-lg shadow-sm">
                   <img 
-                    src="/placeholder.jpeg"
+                    src="/src/assets/images (2).jpeg"
                     className='h-[340px] w-full object-cover rounded-xl' 
                   />
                   <h2 className='font-bold'>{place.placeName}</h2>
-                  <p className='text-sm'>{place.placeDetails}</p>
+                  <p className=' text-sm'>{place.placeDetails}</p>
                   <p className='text-sm '>Best time to visit: {place.bestTimeToVisit}</p>
                   <p className='text-sm'>Ticket Price: {place.ticketPrice}</p>
                   <p className='text-sm'>Rating: {place.rating}</p>

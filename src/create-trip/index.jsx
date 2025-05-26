@@ -20,7 +20,7 @@ import {
 import { useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
 import { doc, setDoc } from 'firebase/firestore';
-import { db } from '@/service/FirebaseConfig';
+import { db } from '../service/firebaseConfig';
 
 
 function Createtrip() {
